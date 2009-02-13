@@ -1,7 +1,7 @@
 require 'activesupport'
 
 module Ruby19Monkey
-  VERSION = "0.0.1"
+  VERSION = "0.0.2"
 
   def self.install!
     ActionView::Base.send(:include, ForceEncoding::OutputBuffer)
